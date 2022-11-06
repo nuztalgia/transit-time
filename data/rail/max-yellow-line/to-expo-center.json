@@ -1,0 +1,121 @@
+[
+  {
+    "id": 10293,
+    "name": "PSU South/SW 6th & College",
+    "direction": "Northbound (To Expo Center)",
+    "lat": 45.5096158600378,
+    "long": -122.683593047781
+  },
+  {
+    "id": 7774,
+    "name": "PSU Urban Center/SW 6th & Montgomery",
+    "direction": "Northbound (To Expo Center)",
+    "lat": 45.5115968952508,
+    "long": -122.682550493399
+  },
+  {
+    "id": 13123,
+    "name": "SW 6th & Madison",
+    "direction": "Northbound (To Expo Center)",
+    "lat": 45.5156328809934,
+    "long": -122.680380635272
+  },
+  {
+    "id": 7777,
+    "name": "Pioneer Courthouse/SW 6th Ave",
+    "direction": "Northbound (To Expo Center)",
+    "lat": 45.5189638279112,
+    "long": -122.67855822485
+  },
+  {
+    "id": 7787,
+    "name": "SW 6th & Pine",
+    "direction": "Northbound (To Expo Center)",
+    "lat": 45.5223232870211,
+    "long": -122.676755576899
+  },
+  {
+    "id": 9299,
+    "name": "NW 6th & Davis",
+    "direction": "Northbound (To Expo Center)",
+    "lat": 45.5244053705922,
+    "long": -122.676429156497
+  },
+  {
+    "id": 7763,
+    "name": "Union Station/NW 6th & Hoyt",
+    "direction": "Northbound (To Expo Center)",
+    "lat": 45.527221999998,
+    "long": -122.67651699998
+  },
+  {
+    "id": 11508,
+    "name": "Interstate/Rose Quarter",
+    "direction": "Northbound (To Expo Center)",
+    "lat": 45.5302795802814,
+    "long": -122.667879156583
+  },
+  {
+    "id": 11509,
+    "name": "Albina/Mississippi",
+    "direction": "Northbound (To Expo Center)",
+    "lat": 45.5396263320439,
+    "long": -122.675617462578
+  },
+  {
+    "id": 11510,
+    "name": "Overlook Park",
+    "direction": "Northbound (To Expo Center)",
+    "lat": 45.5483082816098,
+    "long": -122.68092454074
+  },
+  {
+    "id": 11511,
+    "name": "N Prescott St",
+    "direction": "Northbound (To Expo Center)",
+    "lat": 45.5552784153517,
+    "long": -122.682282063481
+  },
+  {
+    "id": 11512,
+    "name": "N Killingsworth St",
+    "direction": "Northbound (To Expo Center)",
+    "lat": 45.563117436338,
+    "long": -122.682149563751
+  },
+  {
+    "id": 11513,
+    "name": "Rosa Parks",
+    "direction": "Northbound (To Expo Center)",
+    "lat": 45.5704161547004,
+    "long": -122.682061649868
+  },
+  {
+    "id": 11514,
+    "name": "N Lombard TC",
+    "direction": "Northbound (To Expo Center)",
+    "lat": 45.5776419218896,
+    "long": -122.682004116327
+  },
+  {
+    "id": 11515,
+    "name": "Kenton/N Denver Ave",
+    "direction": "Northbound (To Expo Center)",
+    "lat": 45.5839271310172,
+    "long": -122.685943926137
+  },
+  {
+    "id": 11516,
+    "name": "Delta Park/Vanport",
+    "direction": "Northbound (To Expo Center)",
+    "lat": 45.5961469262441,
+    "long": -122.685562346844
+  },
+  {
+    "id": 11498,
+    "name": "Expo Center",
+    "direction": "Terminus (Expo Center)",
+    "lat": 45.6053543094761,
+    "long": -122.685706075831
+  }
+]

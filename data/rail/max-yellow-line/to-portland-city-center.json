@@ -1,0 +1,79 @@
+[
+  {
+    "id": 11498,
+    "name": "Expo Center",
+    "direction": "Southbound (To Portland City Center)",
+    "lat": 45.6053543094761,
+    "long": -122.685706075831
+  },
+  {
+    "id": 11499,
+    "name": "Delta Park/Vanport",
+    "direction": "Southbound (To Portland City Center)",
+    "lat": 45.5961156293395,
+    "long": -122.685731439025
+  },
+  {
+    "id": 11500,
+    "name": "Kenton/N Denver Ave",
+    "direction": "Southbound (To Portland City Center)",
+    "lat": 45.5837922194548,
+    "long": -122.685878690277
+  },
+  {
+    "id": 11501,
+    "name": "N Lombard TC",
+    "direction": "Southbound (To Portland City Center)",
+    "lat": 45.5765783637225,
+    "long": -122.682162577758
+  },
+  {
+    "id": 11502,
+    "name": "Rosa Parks",
+    "direction": "Southbound (To Portland City Center)",
+    "lat": 45.5693491148166,
+    "long": -122.682217217205
+  },
+  {
+    "id": 11503,
+    "name": "N Killingsworth St",
+    "direction": "Southbound (To Portland City Center)",
+    "lat": 45.5622048354001,
+    "long": -122.682297128004
+  },
+  {
+    "id": 11504,
+    "name": "N Prescott St",
+    "direction": "Southbound (To Portland City Center)",
+    "lat": 45.5550970148165,
+    "long": -122.682293714459
+  },
+  {
+    "id": 11505,
+    "name": "Overlook Park",
+    "direction": "Southbound (To Portland City Center)",
+    "lat": 45.5491231549864,
+    "long": -122.681060949433
+  },
+  {
+    "id": 11506,
+    "name": "Albina/Mississippi",
+    "direction": "Southbound (To Portland City Center)",
+    "lat": 45.5394805012195,
+    "long": -122.675360448508
+  },
+  {
+    "id": 11507,
+    "name": "Interstate/Rose Quarter",
+    "direction": "Southbound (To Portland City Center)",
+    "lat": 45.5300912169688,
+    "long": -122.667769007893
+  },
+  {
+    "id": 7601,
+    "name": "Union Station/NW 5th & Glisan",
+    "direction": "Terminus (Portland City Center)",
+    "lat": 45.526731616216,
+    "long": -122.675604427032
+  }
+]

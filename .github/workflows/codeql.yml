@@ -6,11 +6,10 @@ on:
       - main
     paths:
       - "**.py"
-  workflow_dispatch:
+      - "!setup.py"
 
 jobs:
   analyze:
-    if: github.ref_type == 'branch'
     runs-on: ubuntu-latest
     permissions:
       security-events: write

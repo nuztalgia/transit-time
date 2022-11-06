@@ -5,6 +5,10 @@ updates:
     schedule:
       interval: "monthly"
   - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+  - package-ecosystem: "pip"
     directory: "/data"
     schedule:
       interval: "monthly"

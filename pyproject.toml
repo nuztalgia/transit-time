@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tt-pdx-bot"
+description = "An experimental Discord bot for navigating Portland's transit system."
+authors = [
+    { name = "Nuztalgia" },
+    { email = "nuztalgia@gmail.com" }
+]
+readme = "README.md"
+license = { text = "AGPL-3.0" }
+requires-python = ">=3.10"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Communications :: Chat",
+    "Typing :: Typed",
+]
+dynamic = ["dependencies", "urls", "version"]
+
+[project.scripts]
+tt-pdx-bot = "ttpdxbot.__main__:main"
+
+[tool.setuptools.dynamic]
+version = { attr = "ttpdxbot.VERSION" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["ttpdxbot"]
+namespaces = false

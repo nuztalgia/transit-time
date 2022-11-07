@@ -22,10 +22,11 @@ jobs:
           cache: pip
           cache-dependency-path: data/requirements.txt
 
-      - name: Install requirements and run script
-        run: |
-          pip install -r data/requirements.txt
-          python data/populate.py -v
+      - name: Install Python dependencies
+        run: pip install -r data/requirements.txt
+
+      - name: Populate data for PDX
+        run: python data/pdx/populate.py -v
         env:
           TRIMET_APP_ID: ${{ secrets.TRIMET_APP_ID }}
 

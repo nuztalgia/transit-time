@@ -19,7 +19,7 @@ in advance!
 
 The [pre-commit](https://pre-commit.com/) CI service will run some checks to
 ensure that your changes keep this project
-[clean, green, and healthy](https://results.pre-commit.ci/latest/github/nuztalgia/train-tracker-pdx/main).
+[clean, green, and healthy](https://results.pre-commit.ci/latest/github/nuztalgia/transit-time/main).
 
 - Some failing checks may be automatically fixed by the service, and the
   resulting changes will be added to your PR as a subsequent commit.

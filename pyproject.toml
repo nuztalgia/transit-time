@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tt-pdx-bot"
-description = "An experimental Discord bot for navigating Portland's transit system."
+name = "transit-time-bot"
+description = "A Discord bot that helps you get to where you're going IRL."
 authors = [
     { name = "Nuztalgia" },
     { email = "nuztalgia@gmail.com" }
@@ -26,12 +26,10 @@ classifiers = [
 dynamic = ["dependencies", "urls", "version"]
 
 [project.scripts]
-tt-pdx-bot = "ttpdxbot.__main__:main"
+transit-time-bot = "ttbot.__main__:main"
 
 [tool.setuptools.dynamic]
-version = { attr = "ttpdxbot.VERSION" }
+version = { attr = "ttbot.VERSION" }
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["ttpdxbot"]
-namespaces = false

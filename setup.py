@@ -5,5 +5,5 @@ setup(
         "botstrap ==0.2.7",
         "py-cord ==2.2.2",
     ],
-    url="https://github.com/nuztalgia/train-tracker-pdx",
+    url="https://github.com/nuztalgia/transit-time",
 )

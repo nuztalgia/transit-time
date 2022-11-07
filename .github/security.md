@@ -17,7 +17,7 @@ both) of the following things:
 
 - Contact the repository owner privately by sending an email to
   nuztalgia@gmail.com
-- Create a [public issue](https://github.com/nuztalgia/train-tracker-pdx/issues)
-  (for minor or non-sensitive matters, and/or in addition to a private email)
+- Create a [public issue](https://github.com/nuztalgia/transit-time/issues) (for
+  minor or non-sensitive matters, and/or in addition to a private email)
 
 Please use your best judgment, and thank you for helping keep our users safe!

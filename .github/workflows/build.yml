@@ -7,7 +7,7 @@ on:
     paths:
       - "pyproject.toml"
       - "setup.py"
-      - "src/ttpdxbot/**.py"
+      - "src/ttbot/**.py"
 
 jobs:
   bot:

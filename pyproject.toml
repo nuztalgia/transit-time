@@ -39,7 +39,7 @@ convention = "google"
 add-ignore = "D1"
 
 [tool.setuptools.dynamic]
-version = { attr = "ttbot.VERSION" }
+version = { attr = "ttbot.version.VERSION" }
 
 [tool.setuptools.packages.find]
 where = ["src"]

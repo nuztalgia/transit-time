@@ -1,7 +1,9 @@
 import functools
+import json
 import re
 from collections.abc import Callable
 from pathlib import Path
+from string import Template
 from typing import Any, Final
 
 import emoji
@@ -9,8 +11,14 @@ from aiohttp import ClientSession
 from discord import ApplicationContext, Bot, ChannelType
 from discord.abc import GuildChannel
 
-from ttbot import VERSION
+from ttbot.data import TransitStop
 from ttbot.log import Log
+from ttbot.version import VERSION
+
+_REPO_DATA_ROOT: Final[str] = "nuztalgia/transit-time/main/data"
+_DATA_URL_TEMPLATE: Final[Template] = Template(
+    f"https://raw.githubusercontent.com/{_REPO_DATA_ROOT}/$data_path.min.json"
+)
 
 
 # noinspection PyAbstractClass
@@ -18,6 +26,7 @@ class TransitTimeBot(Bot):
     def __init__(self, force_sync: bool, **options: Any) -> None:
         super().__init__(**options)
 
+        self._transit_stops: Final[dict[str, list[TransitStop]]] = {}
         self._force_sync: Final[bool] = force_sync
         self._initialized: bool = False
 
@@ -29,6 +38,26 @@ class TransitTimeBot(Bot):
     def http_session(self) -> ClientSession:
         # noinspection PyUnresolvedReferences, PyProtectedMember
         return self.http._HTTPClient__session
+
+    async def clear_cache(self) -> None:
+        Log.i("Clearing cached transit stops.")
+        self._transit_stops.clear()
+
+    async def get_transit_stops(self, data_path: str) -> list[TransitStop]:
+        if data_path not in self._transit_stops:
+            data_url = _DATA_URL_TEMPLATE.substitute(data_path=data_path)
+            Log.d(f"Making HTTP request to fetch stops for '{data_path}'.")
+
+            async with self.http_session.get(data_url) as response:
+                stop_data_list = json.loads(await response.text())
+
+            stops = [TransitStop(**stop_data) for stop_data in stop_data_list]
+            Log.i(f"Successfully fetched {len(stops)} stops for '{data_path}'.")
+            self._transit_stops[data_path] = stops
+        else:
+            Log.d(f"Returning cached stops for '{data_path}'.")
+
+        return self._transit_stops[data_path]
 
     # noinspection PyMethodMayBeStatic
     async def on_application_command(self, ctx: ApplicationContext) -> None:

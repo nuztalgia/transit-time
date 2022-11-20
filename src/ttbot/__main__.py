@@ -1,8 +1,8 @@
 from botstrap import Botstrap, CliColors, Color, Option
 from discord import Activity, ActivityType
 
-from ttbot import VERSION
 from ttbot.log import Log
+from ttbot.version import VERSION
 
 
 def main() -> int:

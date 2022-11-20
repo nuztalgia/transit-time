@@ -11,15 +11,15 @@ authors = [
 ]
 readme = "README.md"
 license = { text = "AGPL-3.0" }
-requires-python = ">=3.10"
+requires-python = "==3.10.*"
 classifiers = [
     "Development Status :: 2 - Pre-Alpha",
     "Intended Audience :: End Users/Desktop",
     "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Natural Language :: English",
     "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
     "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
     "Topic :: Communications :: Chat",
     "Typing :: Typed",
 ]
@@ -27,6 +27,16 @@ dynamic = ["dependencies", "urls", "version"]
 
 [project.scripts]
 transit-time-bot = "ttbot.__main__:main"
+
+[tool.black]
+target-version = ["py310"]
+
+[tool.isort]
+profile = "black"
+
+[tool.pydocstyle]
+convention = "google"
+add-ignore = "D1"
 
 [tool.setuptools.dynamic]
 version = { attr = "ttbot.VERSION" }

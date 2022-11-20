@@ -1,0 +1,4 @@
+.github/developer_certificate.md
+.github/pull_request_template.md
+data/**/*.min.json
+data/**/readme.md

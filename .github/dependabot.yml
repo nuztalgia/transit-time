@@ -7,8 +7,8 @@ updates:
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
-      interval: "monthly"
+      interval: "weekly"
   - package-ecosystem: "pip"
     directory: "/data"
     schedule:
-      interval: "monthly"
+      interval: "weekly"

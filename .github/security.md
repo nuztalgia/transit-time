@@ -9,15 +9,8 @@
 
 ## Reporting a Vulnerability
 
-If you think you might have found a security vulnerability, **please report it**
-so that it can be fixed ASAP.
+If you think you might have found a security vulnerability, [**please report it
+privately**][report-link] so that it can be fixed ASAP. 💜
 
-Depending on the severity of the problem, you can report it by doing one (or
-both) of the following things:
-
-- Contact the repository owner privately by sending an email to
-  nuztalgia@gmail.com
-- Create a [public issue](https://github.com/nuztalgia/transit-time/issues) (for
-  minor or non-sensitive matters, and/or in addition to a private email)
-
-Please use your best judgment, and thank you for helping keep our users safe!
+[report-link]:
+  https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability#privately-reporting-a-security-vulnerability

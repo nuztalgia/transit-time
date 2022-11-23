@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import Final
 
 from discord.utils import utcnow
@@ -18,7 +18,7 @@ def format_relative_time(time_ms: int, relative_to: datetime | None = None) -> s
 
 def get_datetime(millis_since_epoch: int | None = None) -> datetime:
     return (
-        datetime.fromtimestamp(millis_since_epoch / 1000)
+        datetime.fromtimestamp(millis_since_epoch / 1000, tz=timezone.utc)
         if millis_since_epoch
         else utcnow()
     )

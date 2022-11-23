@@ -1,13 +1,15 @@
 import functools
 import json
 import re
+from collections.abc import Callable
 from string import Template
 from typing import Final, cast
 
-import uikitty
-from discord import ButtonStyle, Cog, Embed
+from discord import ButtonStyle, Cog, Embed, Interaction
 from discord.commands import ApplicationContext, SlashCommandGroup
+from discord.ui import Button, View
 from dotenv import dotenv_values
+from uikitty import dynamic_select
 
 from ttbot import Log, TransitArrival, TransitLine, TransitStop, TransitTimeBot, embeds
 
@@ -17,7 +19,7 @@ _AREA_NAME_REGEX: Final[re.Pattern] = re.compile(
 )
 
 _TRIMET_APP_ID: Final[str] = dotenv_values().get("TRIMET_APP_ID", "")
-_MAX_ARRIVALS: Final[int] = 5
+_MAX_ARRIVALS: Final[int] = 3
 
 
 def _get_command_description(area_name: str) -> str:
@@ -74,25 +76,24 @@ class TransitCog(Cog):
         direction_label = f"{location['dir'].lower()} " if location.get("dir") else ""
         direction_text = f"{direction_label}to **{direction}**"
 
-        embed = embeds.get_arrivals_detailed_embed(
-            line, stop, arrivals, direction_text, results.get("queryTime")
+        get_embed = functools.partial(
+            embeds.get_arrivals_detailed_embed, line, stop, arrivals, direction_text
         )
-        Log.d(embed.description.replace("*", ""))
-        await ctx.edit(embed=embed, view=None)  # TODO: Show buttons for quick access.
+        embed = get_embed(query_time=results.get("queryTime"))
+
+        await self._display_arrivals(ctx, embed, get_embed)
 
     async def _get_transit_parameters(
         self, ctx: ApplicationContext
     ) -> tuple[TransitLine, TransitStop, str]:
         get_user_choice = functools.partial(
-            uikitty.dynamic_select,
-            ctx,
-            log=lambda message: Log.d(f"{' ' * 4}{message}"),
+            dynamic_select, ctx, log=lambda message: Log.d(f"{' ' * 4}{message}")
         )
         area_code = ctx.command.name.strip().strip("_").upper()
         area_name = _get_area_name(getattr(ctx.command, "description", area_code))
         area_lines = TransitLine.for_area_code(area_code)
 
-        await ctx.response.defer(ephemeral=True, invisible=False)
+        await ctx.response.defer(ephemeral=False, invisible=False)
         Log.d(f"└── {len(area_lines)} supported transit lines in {area_name}.")
 
         transit_line = await get_user_choice(
@@ -117,6 +118,31 @@ class TransitCog(Cog):
             **{stop.name: stop for stop in stops},
         )
         return transit_line, transit_stop, direction
+
+    # noinspection PyMethodMayBeStatic
+    async def _display_arrivals(
+        self,
+        ctx: ApplicationContext,
+        original_arrivals_embed: Embed,
+        get_updated_arrivals_embed: Callable[..., Embed],
+    ) -> None:
+        def log_description(embed: Embed) -> None:
+            Log.d(embed.description.replace("*", ""))
+
+        async def refresh_arrivals(interaction: Interaction) -> None:
+            Log.i(f"{interaction.user} clicked the 'Refresh' button.")
+            await interaction.response.defer()
+            log_description(updated_embed := get_updated_arrivals_embed())
+            await interaction.message.edit(embed=updated_embed)
+
+        button = Button(style=ButtonStyle.primary, label="Refresh")
+        button.callback = refresh_arrivals
+
+        view = View(timeout=None)
+        view.add_item(button)
+
+        log_description(original_arrivals_embed)
+        await ctx.edit(embed=original_arrivals_embed, view=view)
 
 
 def setup(bot: TransitTimeBot) -> None:

@@ -39,7 +39,8 @@ def get_arrivals_detailed_embed(
             + line.get_vehicle_noun(pluralize=len(arrivals) != 1)
             + (f" traveling {direction_text}." if direction_text else ".")
         ),
-    )
+        timestamp=current_time,
+    ).set_footer(text="Last Updated")
 
     for number, arrival in enumerate(arrivals, start=1):
         vehicle_emoji = emojize(f":{apnumber(number)}:")
@@ -50,6 +51,7 @@ def get_arrivals_detailed_embed(
         vehicle_title = f"{vehicle_emoji}\u2002**{vehicle_name}**"
         _add_arrival_fields(embed, arrival, current_time, vehicle_title, vehicle_noun)
 
+    embed.add_field(name="\u200B", value=SEPARATOR.lstrip("* \n"), inline=False)
     return embed
 
 

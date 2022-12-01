@@ -2,24 +2,22 @@
 
 Thank you for your interest in contributing to this project! All types of
 contributions are encouraged and valued. If you haven't already done so, please
-take a few minutes to read through the [code of conduct](code_of_conduct.md) and
-make sure you wholeheartedly agree to abide by it. 💖
+take a few minutes to read through the [code of conduct][coc] and make sure you
+wholeheartedly agree to abide by it. 💖
 
 ## Pull Requests
 
 Want to contribute some code and/or documentation to this project? That's
-awesome! Feel free to fork this repo and open a PR with any changes you'd like
-to propose. And don't worry about your potential contributions being "too
-small", even if you're just fixing a typo or rewording a sentence to be more
-clear. Any improvements are welcome and very much appreciated - so **thank you**
-in advance!
+awesome! Feel free to fork the repo and open a PR with any changes you'd like to
+propose. And don't worry about your potential contributions being "too small",
+even if you're just fixing a typo or rewording a sentence to be more clear. Any
+improvements are welcome and very much appreciated - so **thank you** in
+advance!
 
 ### After you open a PR
 
 The [pre-commit](https://pre-commit.com/) CI service will run some checks to
 ensure that your changes keep this project [clean, green, and healthy][ci].
-
-[ci]: https://results.pre-commit.ci/latest/github/nuztalgia/transit-time/main
 
 - Some failing checks may be automatically fixed by the service, and the
   resulting changes will be added to your PR as a subsequent commit.
@@ -43,15 +41,19 @@ it.
 
 ### Licensing
 
-This project is licensed under the
-[GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.html).
-All contributions, forks, and/or usage of this project's codebase **must**
-adhere to that license, as stipulated by the [`LICENSE`](/LICENSE) file in this
-repository.
+This project uses the [GNU Affero General Public License]. All contributions,
+forks, and usage of this project's codebase **must** adhere to that license, as
+stipulated by the [`LICENSE`](/LICENSE) file in this repository.
 
-Furthermore, by submitting a pull request to this repo, you certify that you
+Furthermore, by submitting a pull request to this project, you certify that you
 authored or otherwise have the necessary rights to submit **all** of the code
-included in that PR to this project. Essentially, your contributions must comply
-with the [Developer Certificate of Origin](https://developercertificate.org/),
-which protects this project and all of its contributors. For more information,
-please see the [`developer_certificate`](developer_certificate.md) file.
+contained in that PR. Essentially, your contributions must comply with the
+[Developer Certificate of Origin](https://developercertificate.org/), which
+protects this project and all of its contributors. For more information, please
+see [this file][developer_certificate.md].
+
+[coc]: https://github.com/nuztalgia/.github/blob/main/.github/code_of_conduct.md
+[ci]: https://results.pre-commit.ci/latest/github/nuztalgia/transit-time/main
+[gnu affero general public license]: https://www.gnu.org/licenses/agpl-3.0.html
+[developer_certificate.md]:
+  https://github.com/nuztalgia/.github/blob/main/.github/developer_certificate.md

@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     install_requires=[
-        "aiohttp ==3.8.3",
+        "aiohttp ==3.8.4",
         "bot-ui-kitty ==0.1.5",
         "botstrap ==0.2.9",
         "emoji ==2.2.0",

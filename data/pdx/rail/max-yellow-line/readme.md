@@ -1,6 +1,6 @@
 <div align="center">
 
-![MAX Yellow Line](https://placehold.co/820x100/F8C213/fff?text=Route+190+%28MAX+Yellow+Line%29&font=montserrat)
+![MAX Yellow Line](https://placehold.co/820x100/FFC52F/fff?text=Route+190+%28MAX+Yellow+Line%29&font=montserrat)
 
 <table>
 <tr>

@@ -28,11 +28,11 @@
     "long": -122.565860703069
   },
   {
-    "id": 8370,
-    "name": "Gateway/NE 99th Ave TC",
-    "direction": "Northbound (To Beaverton Transit Center)",
-    "lat": 45.530839025141,
-    "long": -122.563626896073
+    "id": 14250,
+    "name": "Gateway North",
+    "direction": "Southbound (To Beaverton Transit Center)",
+    "lat": 45.53219379164804,
+    "long": -122.56374188813442
   },
   {
     "id": 8371,

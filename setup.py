@@ -5,7 +5,7 @@ setup(
         "aiohttp ==3.9.3",
         "bot-ui-kitty ==0.1.5",
         "botstrap ==0.2.9",
-        "emoji ==2.10.1",
+        "emoji ==2.11.0",
         "humanize ==4.9.0",
         "py-cord ==2.5.0",
         "python-dotenv ==0.21.1",

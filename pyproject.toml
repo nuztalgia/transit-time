@@ -1,29 +1,29 @@
 [build-system]
-requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
+requires = ["setuptools>=61.0"]
 
 [project]
-name = "transit-time-bot"
-description = "A Discord bot that helps you get to where you're going IRL."
 authors = [
-    { name = "Nuztalgia" },
-    { email = "nuztalgia@gmail.com" }
+  {name = "Nuztalgia"},
+  {email = "nuztalgia@gmail.com"}
 ]
-readme = "README.md"
-license = { text = "AGPL-3.0" }
-requires-python = "==3.10.*"
 classifiers = [
-    "Development Status :: 2 - Pre-Alpha",
-    "Intended Audience :: End Users/Desktop",
-    "License :: OSI Approved :: GNU Affero General Public License v3",
-    "Natural Language :: English",
-    "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.10",
-    "Topic :: Communications :: Chat",
-    "Typing :: Typed",
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: End Users/Desktop",
+  "License :: OSI Approved :: GNU Affero General Public License v3",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Communications :: Chat",
+  "Typing :: Typed"
 ]
+description = "A Discord bot that helps you get to where you're going IRL."
 dynamic = ["dependencies", "urls", "version"]
+license = {text = "AGPL-3.0"}
+name = "transit-time-bot"
+readme = "README.md"
+requires-python = "==3.10.*"
 
 [project.scripts]
 transit-time-bot = "ttbot.__main__:main"
@@ -35,11 +35,11 @@ target-version = ["py310"]
 profile = "black"
 
 [tool.pydocstyle]
-convention = "google"
 add-ignore = "D1"
+convention = "google"
 
 [tool.setuptools.dynamic]
-version = { attr = "ttbot.version.VERSION" }
+version = {attr = "ttbot.version.VERSION"}
 
 [tool.setuptools.packages.find]
 where = ["src"]

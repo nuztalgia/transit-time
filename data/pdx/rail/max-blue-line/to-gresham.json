@@ -15,7 +15,7 @@
   },
   {
     "id": 9843,
-    "name": "Tuality Hospital/SE 8th Ave",
+    "name": "Hillsboro Health District",
     "direction": "Eastbound (To Gresham)",
     "lat": 45.5212880911494,
     "long": -122.978016886765
@@ -29,7 +29,7 @@
   },
   {
     "id": 9838,
-    "name": "Fair Complex/Hillsboro Airport",
+    "name": "Hillsboro Airport/Fairgrounds",
     "direction": "Eastbound (To Gresham)",
     "lat": 45.5270414684259,
     "long": -122.945808297437
@@ -204,7 +204,7 @@
   },
   {
     "id": 8344,
-    "name": "Hollywood/NE 42nd Ave TC",
+    "name": "Hollywood/NE 42nd Ave",
     "direction": "Eastbound (To Gresham)",
     "lat": 45.532772097942,
     "long": -122.620708267355

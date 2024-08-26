@@ -1,5 +1,75 @@
 [
   {
+    "id": 9838,
+    "name": "Hillsboro Airport/Fairgrounds",
+    "direction": "Eastbound (To Portland International Airport)",
+    "lat": 45.5270414684259,
+    "long": -122.945808297437
+  },
+  {
+    "id": 9839,
+    "name": "Hawthorn Farm",
+    "direction": "Eastbound (To Portland International Airport)",
+    "lat": 45.5300119612249,
+    "long": -122.930380448947
+  },
+  {
+    "id": 9835,
+    "name": "Orenco",
+    "direction": "Eastbound (To Portland International Airport)",
+    "lat": 45.5302571085505,
+    "long": -122.91546714289
+  },
+  {
+    "id": 9834,
+    "name": "Quatama",
+    "direction": "Eastbound (To Portland International Airport)",
+    "lat": 45.5230819209294,
+    "long": -122.888511243954
+  },
+  {
+    "id": 9831,
+    "name": "Willow Creek/SW 185th Ave TC",
+    "direction": "Eastbound (To Portland International Airport)",
+    "lat": 45.5171174920948,
+    "long": -122.869873935386
+  },
+  {
+    "id": 9830,
+    "name": "Elmonica/SW 170th Ave",
+    "direction": "Eastbound (To Portland International Airport)",
+    "lat": 45.5097774129615,
+    "long": -122.851193099342
+  },
+  {
+    "id": 9828,
+    "name": "Merlo Rd/SW 158th Ave",
+    "direction": "Eastbound (To Portland International Airport)",
+    "lat": 45.5050577818671,
+    "long": -122.841871858462
+  },
+  {
+    "id": 9822,
+    "name": "Beaverton Creek",
+    "direction": "Southbound (To Portland International Airport)",
+    "lat": 45.5002487633061,
+    "long": -122.832785421455
+  },
+  {
+    "id": 9826,
+    "name": "Millikan Way",
+    "direction": "Eastbound (To Portland International Airport)",
+    "lat": 45.4951024629297,
+    "long": -122.821238158151
+  },
+  {
+    "id": 9824,
+    "name": "Beaverton Central",
+    "direction": "Eastbound (To Portland International Airport)",
+    "lat": 45.4905011004336,
+    "long": -122.806766167497
+  },
+  {
     "id": 9821,
     "name": "Beaverton TC",
     "direction": "Northbound (To Portland International Airport)",
@@ -106,7 +176,7 @@
   },
   {
     "id": 8344,
-    "name": "Hollywood/NE 42nd Ave TC",
+    "name": "Hollywood/NE 42nd Ave",
     "direction": "Eastbound (To Portland International Airport)",
     "lat": 45.532772097942,
     "long": -122.620708267355

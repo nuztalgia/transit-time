@@ -1,94 +1,38 @@
 [
   {
-    "id": 8359,
-    "name": "Cleveland Ave",
-    "direction": "Westbound (To Hillsboro)",
-    "lat": 45.5017723342339,
-    "long": -122.418449726735
+    "id": 10579,
+    "name": "Portland Int'l Airport",
+    "direction": "Eastbound (To Hillsboro)",
+    "lat": 45.587584,
+    "long": -122.5931
   },
   {
-    "id": 8360,
-    "name": "Gresham Central TC",
-    "direction": "Westbound (To Hillsboro)",
-    "lat": 45.5027048597305,
-    "long": -122.427348083366
+    "id": 10577,
+    "name": "Mt Hood Ave",
+    "direction": "Southbound (To Hillsboro)",
+    "lat": 45.5768610212536,
+    "long": -122.567140829383
   },
   {
-    "id": 8361,
-    "name": "Gresham City Hall",
-    "direction": "Westbound (To Hillsboro)",
-    "lat": 45.5059809966741,
-    "long": -122.436284812825
+    "id": 10575,
+    "name": "Cascades",
+    "direction": "Eastbound (To Hillsboro)",
+    "lat": 45.5720751580038,
+    "long": -122.557700297686
   },
   {
-    "id": 13449,
-    "name": "Civic Drive",
-    "direction": "Westbound (To Hillsboro)",
-    "lat": 45.5082925858757,
-    "long": -122.441843251073
+    "id": 10573,
+    "name": "Parkrose/Sumner TC",
+    "direction": "Southbound (To Hillsboro)",
+    "lat": 45.5588291962123,
+    "long": -122.565860703069
   },
   {
-    "id": 8362,
-    "name": "Ruby Junction/E 197th Ave",
-    "direction": "Westbound (To Hillsboro)",
-    "lat": 45.516502040044,
-    "long": -122.461119428588
-  },
-  {
-    "id": 8363,
-    "name": "Rockwood/E 188th Ave",
-    "direction": "Westbound (To Hillsboro)",
-    "lat": 45.5207233790928,
-    "long": -122.471092945915
-  },
-  {
-    "id": 8364,
-    "name": "E 181st Ave",
-    "direction": "Westbound (To Hillsboro)",
-    "lat": 45.5220645756665,
-    "long": -122.478074040133
-  },
-  {
-    "id": 8365,
-    "name": "E 172nd Ave",
-    "direction": "Westbound (To Hillsboro)",
-    "lat": 45.5221400538572,
-    "long": -122.487140217377
-  },
-  {
-    "id": 8366,
-    "name": "E 162nd Ave",
-    "direction": "Westbound (To Hillsboro)",
-    "lat": 45.5222351970517,
-    "long": -122.497431740365
-  },
-  {
-    "id": 8367,
-    "name": "E 148th Ave",
-    "direction": "Westbound (To Hillsboro)",
-    "lat": 45.5223435058001,
-    "long": -122.511614417374
-  },
-  {
-    "id": 8368,
-    "name": "E 122nd Ave",
-    "direction": "Westbound (To Hillsboro)",
-    "lat": 45.5225560348638,
-    "long": -122.538703552019
-  },
-  {
-    "id": 8369,
-    "name": "E 102nd Ave",
-    "direction": "Westbound (To Hillsboro)",
-    "lat": 45.5226911012391,
-    "long": -122.559244326754
-  },
-  {
-    "id": 8370,
-    "name": "Gateway/NE 99th Ave TC",
-    "direction": "Northbound (To Hillsboro)",
-    "lat": 45.530839025141,
-    "long": -122.563626896073
+    "id": 14250,
+    "name": "Gateway North",
+    "direction": "Southbound (To Hillsboro)",
+    "lat": 45.53219379164804,
+    "long": -122.56374188813442
   },
   {
     "id": 8371,
@@ -282,36 +226,8 @@
   {
     "id": 9837,
     "name": "Hillsboro Airport/Fairgrounds",
-    "direction": "Westbound (To Hillsboro)",
+    "direction": "Terminus (Hillsboro)",
     "lat": 45.5269236271043,
     "long": -122.946499150393
-  },
-  {
-    "id": 9842,
-    "name": "Washington/SE 12th Ave",
-    "direction": "Westbound (To Hillsboro)",
-    "lat": 45.5212310664826,
-    "long": -122.969867228068
-  },
-  {
-    "id": 9844,
-    "name": "Hillsboro Health District",
-    "direction": "Westbound (To Hillsboro)",
-    "lat": 45.5213148538066,
-    "long": -122.978728435998
-  },
-  {
-    "id": 9845,
-    "name": "Hillsboro Central/SE 3rd TC",
-    "direction": "Westbound (To Hillsboro)",
-    "lat": 45.5214311941348,
-    "long": -122.985652551304
-  },
-  {
-    "id": 9848,
-    "name": "Hatfield Government Center",
-    "direction": "Terminus (Hillsboro)",
-    "lat": 45.522204,
-    "long": -122.991022
   }
 ]

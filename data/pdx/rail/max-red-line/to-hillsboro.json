@@ -219,15 +219,8 @@
   {
     "id": 9840,
     "name": "Hawthorn Farm",
-    "direction": "Westbound (To Hillsboro)",
+    "direction": "Terminus (Hillsboro)",
     "lat": 45.5299206129352,
     "long": -122.931119810485
-  },
-  {
-    "id": 9837,
-    "name": "Hillsboro Airport/Fairgrounds",
-    "direction": "Terminus (Hillsboro)",
-    "lat": 45.5269236271043,
-    "long": -122.946499150393
   }
 ]

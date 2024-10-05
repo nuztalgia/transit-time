@@ -2,10 +2,10 @@ from setuptools import setup
 
 setup(
     install_requires=[
-        "aiohttp ==3.10.8",
+        "aiohttp ==3.10.9",
         "bot-ui-kitty ==0.1.5",
         "botstrap ==0.2.9",
-        "emoji ==2.13.2",
+        "emoji ==2.14.0",
         "humanize ==4.10.0",
         "py-cord ==2.6.1",
         "python-dotenv ==0.21.1",

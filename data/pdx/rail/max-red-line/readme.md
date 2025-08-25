@@ -29,7 +29,6 @@
 | [`8334`](https://www.google.com/maps/search/?api=1&query=45.5184955248011%2C-122.679145330676)    | Pioneer Square South          |
 | [`8336`](https://www.google.com/maps/search/?api=1&query=45.5171526299949%2C-122.674171902776)    | Yamhill District              |
 | [`8337`](https://www.google.com/maps/search/?api=1&query=45.5202804596563%2C-122.672146424037)    | Oak/SW 1st Ave                |
-| [`8338`](https://www.google.com/maps/search/?api=1&query=45.5230954685995%2C-122.671256313655)    | Skidmore Fountain             |
 | [`8339`](https://www.google.com/maps/search/?api=1&query=45.5251796242201%2C-122.671353185505)    | Old Town/Chinatown            |
 | [`8340`](https://www.google.com/maps/search/?api=1&query=45.5300567999826%2C-122.66491664178)     | Rose Quarter TC               |
 | [`8341`](https://www.google.com/maps/search/?api=1&query=45.5300519305776%2C-122.661907990664)    | Convention Center             |
@@ -64,7 +63,6 @@
 | [`8376`](https://www.google.com/maps/search/?api=1&query=45.530137848543%2C-122.662539549115)      | Convention Center            |
 | [`8377`](https://www.google.com/maps/search/?api=1&query=45.5302353512818%2C-122.66555734012)      | Rose Quarter TC              |
 | [`8378`](https://www.google.com/maps/search/?api=1&query=45.5246953346089%2C-122.671466795694)     | Old Town/Chinatown           |
-| [`8379`](https://www.google.com/maps/search/?api=1&query=45.5228727583101%2C-122.671390260638)     | Skidmore Fountain            |
 | [`8380`](https://www.google.com/maps/search/?api=1&query=45.5198597205757%2C-122.672522992326)     | Oak/SW 1st Ave               |
 | [`8381`](https://www.google.com/maps/search/?api=1&query=45.5181811277907%2C-122.675385866199)     | Morrison/SW 3rd Ave          |
 | [`8383`](https://www.google.com/maps/search/?api=1&query=45.5192530913679%2C-122.679474777158)     | Pioneer Square North         |

@@ -31,15 +31,15 @@
     "id": 14250,
     "name": "Gateway North",
     "direction": "Southbound (To Hillsboro)",
-    "lat": 45.53219379164804,
-    "long": -122.56374188813442
+    "lat": 45.53233114035274,
+    "long": -122.56374937599887
   },
   {
     "id": 8371,
     "name": "NE 82nd Ave",
     "direction": "Westbound (To Hillsboro)",
-    "lat": 45.53396781329494,
-    "long": -122.57974986256073
+    "lat": 45.533485983840826,
+    "long": -122.57847911346636
   },
   {
     "id": 8372,

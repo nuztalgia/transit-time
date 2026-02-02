@@ -51,7 +51,7 @@ def get_arrivals_detailed_embed(
         vehicle_title = f"{vehicle_emoji}\u2002**{vehicle_name}**"
         _add_arrival_fields(embed, arrival, current_time, vehicle_title, vehicle_noun)
 
-    embed.add_field(name="\u200B", value=SEPARATOR.lstrip("* \n"), inline=False)
+    embed.add_field(name="\u200b", value=SEPARATOR.lstrip("* \n"), inline=False)
     return embed
 
 
@@ -62,7 +62,7 @@ def _add_arrival_fields(
     vehicle_title: str,
     vehicle_noun: str,
 ) -> None:
-    title_value = f"{vehicle_title} ({arrival.vehicle_sign})\n\u200B"
+    title_value = f"{vehicle_title} ({arrival.vehicle_sign})\n\u200b"
     embed.add_field(name=SEPARATOR, value=title_value, inline=False)
 
     def add_time_field(emoji_name: str, title: str, time_ms: int) -> None:
@@ -81,12 +81,12 @@ def _add_arrival_fields(
 
     emoji, label = time.get_summary_text(arrival.scheduled_time, arrival.estimated_time)
     summary_value = f":{emoji}:\u2002This {vehicle_noun} {label}"
-    embed.add_field(name="\u200B", value=summary_value, inline=False)
+    embed.add_field(name="\u200b", value=summary_value, inline=False)
 
 
 def _add_inline_field(embed: Embed, emoji_name: str, title: str, value: str) -> None:
     embed.add_field(
-        name=f":{emoji_name}:\u2002{title}" + (" \u200B" * 6),
+        name=f":{emoji_name}:\u2002{title}" + (" \u200b" * 6),
         value="\n:black_small_square:\u2002".join(["", *value.split("\n")]).strip(),
         inline=True,
     )

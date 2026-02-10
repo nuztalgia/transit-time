@@ -8,7 +8,7 @@ setup(
         "emoji ==2.15.0",
         "humanize ==4.15.0",
         "py-cord ==2.7.1",
-        "python-dotenv ==0.21.1",
+        "python-dotenv ==1.2.1",
     ],
     url="https://github.com/nuztalgia/transit-time",
 )

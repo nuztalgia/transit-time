@@ -1,0 +1,58 @@
+[
+  {
+    "id": 13132,
+    "name": "Clackamas Town Center TC",
+    "direction": "Northbound (To Gateway Transit Center)",
+    "lat": 45.4357211506974,
+    "long": -122.567769343141
+  },
+  {
+    "id": 13133,
+    "name": "SE Fuller Rd",
+    "direction": "Northbound (To Gateway Transit Center)",
+    "lat": 45.453637147794,
+    "long": -122.573656025669
+  },
+  {
+    "id": 13134,
+    "name": "SE Flavel St",
+    "direction": "Northbound (To Gateway Transit Center)",
+    "lat": 45.4680681327341,
+    "long": -122.566542227616
+  },
+  {
+    "id": 13135,
+    "name": "Lents/SE Foster Rd",
+    "direction": "Northbound (To Gateway Transit Center)",
+    "lat": 45.4806859593984,
+    "long": -122.566744803694
+  },
+  {
+    "id": 13136,
+    "name": "SE Holgate Blvd",
+    "direction": "Northbound (To Gateway Transit Center)",
+    "lat": 45.4913689490462,
+    "long": -122.566228993351
+  },
+  {
+    "id": 13137,
+    "name": "SE Powell Blvd",
+    "direction": "Northbound (To Gateway Transit Center)",
+    "lat": 45.4959912271817,
+    "long": -122.566197993006
+  },
+  {
+    "id": 13138,
+    "name": "SE Division St",
+    "direction": "Northbound (To Gateway Transit Center)",
+    "lat": 45.5036078363298,
+    "long": -122.566584394291
+  },
+  {
+    "id": 13139,
+    "name": "SE Main St",
+    "direction": "Terminus (Gateway Transit Center)",
+    "lat": 45.5145250975307,
+    "long": -122.564412586886
+  }
+]

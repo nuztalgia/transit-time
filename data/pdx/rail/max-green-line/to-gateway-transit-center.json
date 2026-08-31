@@ -51,8 +51,15 @@
   {
     "id": 13139,
     "name": "SE Main St",
-    "direction": "Terminus (Gateway Transit Center)",
+    "direction": "Northbound (To Gateway Transit Center)",
     "lat": 45.5145250975307,
     "long": -122.564412586886
+  },
+  {
+    "id": 14641,
+    "name": "Gateway Transit Center",
+    "direction": "Terminus (Gateway Transit Center)",
+    "lat": 45.53058844207497,
+    "long": -122.56361878740144
   }
 ]

@@ -1,5 +1,12 @@
 [
   {
+    "id": 14641,
+    "name": "Gateway Transit Center",
+    "direction": "Northbound (To Clackamas Town Center)",
+    "lat": 45.53058844207497,
+    "long": -122.56361878740144
+  },
+  {
     "id": 13124,
     "name": "SE Main St",
     "direction": "Southbound (To Clackamas Town Center)",
